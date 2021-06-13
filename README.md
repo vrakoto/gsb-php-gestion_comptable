@@ -83,7 +83,44 @@ La page qui correspond le mieux chez les visiteurs est c_etatFrais.php
 - ajouter dans le formulaire un nouveau <select> pour afficher tous les visiteurs
 - modifier le <select> du mois : il faut afficher les 6 derniers mois ! ! !
 
-
-*******NB warning datetimezone //possible avec une installation sur uwAmp *****
-pour enlever ce warning, ajouter au tout début du controleur principal de gsbMVC (index.php) la ligne
-date_default_timezone_set('Europe/Paris');
+------------------------------------------------------------------------------------
+ 
+# Page de connexion
+  
+![connexion](https://user-images.githubusercontent.com/25708184/121803000-b8c73100-cc3f-11eb-98c1-4ee65e8b1fd2.JPG)
+  
+# Connexion en tant que Visiteur
+  
+![visiteur](https://user-images.githubusercontent.com/25708184/121803002-b95fc780-cc3f-11eb-9069-2ac0e6bb2d70.JPG)
+  
+# Visiteur => Saisir des fiches de frais qui sera évaluée par le Comptable
+  
+![visiteur_SaisirFicheFrais](https://user-images.githubusercontent.com/25708184/121803004-b9f85e00-cc3f-11eb-9538-a8cb2a01b6d0.JPG)  
+  
+# Visiteur => Consulter la liste des fiches de frais saisies par le visiteur en question
+  
+![visiteur_ConsulterFiche](https://user-images.githubusercontent.com/25708184/121803003-b95fc780-cc3f-11eb-9797-1660c24c34c1.JPG)
+  
+# Déconnexion et passage à la partie Comptable
+  
+# Connexion en tant que Comptable
+  
+![comptable](https://user-images.githubusercontent.com/25708184/121802993-b82e9a80-cc3f-11eb-803e-b97b316cb02a.JPG)
+  
+# Comptable => Valider une fiche de frais d'un visiteur
+  
+![comptable_ValiderFiche](https://user-images.githubusercontent.com/25708184/121802995-b8c73100-cc3f-11eb-9abd-6b8dff265ea7.JPG)
+  
+# Comptable => Affiche uniquement les fiches de frais des 6 derniers mois  
+  
+![comptable_ValiderFiche-6lastmois](https://user-images.githubusercontent.com/25708184/121802997-b8c73100-cc3f-11eb-8f05-123cab991ade.jpg)
+  
+# Comptable => Affiche la liste de tous les visiteurs ayant au moins une fiche de frais les 6 derniers moi
+  
+![comptable_ValiderFiche-listeVisiteurs](https://user-images.githubusercontent.com/25708184/121802998-b8c73100-cc3f-11eb-8591-7128f9fa82f8.png)
+  
+# Comptable => Suivement du paiement des fiches de frais validé par le Comptable + affiche en détail la constitution de chaque fiche
+![comptable_suivrePaiement](https://user-images.githubusercontent.com/25708184/121802994-b82e9a80-cc3f-11eb-856d-ffdd4c757614.JPG)
+  
+# Schema du projet
+![schema](https://user-images.githubusercontent.com/25708184/121803001-b95fc780-cc3f-11eb-9b39-49e0744e0e6b.JPG)
